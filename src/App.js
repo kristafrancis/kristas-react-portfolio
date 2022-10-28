@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Nav from "./components/Nav";
 import About from "./components/About";
-
+import Footer from "./components/Footer"
 import ContactForm from "./components/Contact";
 
 function App() {
