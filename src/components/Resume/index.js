@@ -24,7 +24,7 @@ function Resume() {
           <li>Express.js</li>
           <li>My SQL, Sequelize</li>
           <li>MongoDB, Mongoose</li>
-          <li>RESTful APLI's</li>
+          <li>REST</li>
           <li>CRUD Method</li>
           <li>GraphQL</li>
         </ul>
