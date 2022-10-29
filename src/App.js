@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Nav from "./components/Nav";
 import About from "./components/About";
-//import Projects from "./components/Projects";
+//import Portfolio from "./components/Portfolio";
 import ContactForm from "./components/Contact";
 //import Resume from "./components/Resume";
 //import Footer from "./components/Footer";
@@ -13,7 +13,7 @@ function App() {
     {
       name: "about me",
     },
-    { name: "projects" },
+    { name: "portfolio" },
     { name: "contact" },
     { name: "resume" },
   ]);
