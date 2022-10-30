@@ -1,12 +1,14 @@
 //import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 import React, { useState } from "react";
 import Nav from "./components/Nav";
 import About from "./components/About";
 //import Portfolio from "./components/Portfolio";
 import ContactForm from "./components/Contact";
+import Footer from "./components/Footer";
 //import Resume from "./components/Resume";
 //import Footer from "./components/Footer";
-
 
 function App() {
   const [categories] = useState([
@@ -40,6 +42,7 @@ function App() {
           <ContactForm></ContactForm>
         )}
       </main>
+      <Footer></Footer>
     </div>
   );
 }
