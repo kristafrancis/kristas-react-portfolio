@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import Portfolio from "../Portfolio";
 
-function Projects() {
+const Projects = ({ category }) => {
   const [portfolio] = useState([
     {
       name: "Run-Buddy",
@@ -16,21 +15,21 @@ function Projects() {
       link: "https://kristafrancis.github.io/now-were-cookin/",
     },
     {
-      name: "E-Commerce-Back-End",
-      languages: "Express.js, MySQL, Sequelize, CRUD Method",
-      repository: "https://github.com/kristafrancis/e-commerce-back-end",
-      link: "https://github.com/kristafrancis/e-commerce-back-end",
+      name: "Password-Generator",
+      languages: "HTML, CSS, Javascript",
+      repository: "https://github.com/kristafrancis/password-generator",
+      link: "https://kristafrancis.github.io/password-generator/",
     },
     {
-      name: "Social-Network-API",
+      name: "Between-the-Looking-Glass",
       languages: "Express.js, MongoDB",
       repository: "https://github.com/kristafrancis/social-network-API",
-      link: "https://github.com/kristafrancis/social-network-API",
+      link: "https://dry-temple-13792.herokuapp.com/",
     },
     {
       name: "Weather-Dashboard",
-      languages: "HTML, CSS, Javascript, Open Weather API",
-      repository: "https://github.com/kristafrancis/weather-dashboard",
+      languages: "HTML, CSS, Javascript, Node.js, Express.js, Handlebars",
+      repository: "https://github.com/kristafrancis/between-the-looking-glass",
       link: "https://github.com/kristafrancis/weather-dashboard",
     },
     {
@@ -40,4 +39,20 @@ function Projects() {
       link: "https://krista-mvc-tech-blog.herokuapp.com/",
     },
   ]);
-}
+
+  return (
+    <div>
+      <div className="flex-row">
+        {currentPhotos.map((image, i) => (
+          <img
+            src={require(`../../assets/small/${category}/${i}.jpg`).default}
+            alt={image.name}
+            className="img-thumbnail mx-1"
+            key={image.name}
+          />
+        ))}
+      </div>
+    </div>
+  );
+};
+export default Projects;
