@@ -13,15 +13,17 @@ function About() {
       />
       <div className="my-2">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-          bibendum turpis sed ex condimentum molestie. Mauris condimentum lectus
-          ut ornare dignissim. Mauris faucibus urna mi, ac feugiat metus aliquam
-          maximus. Proin aliquam justo nec diam vulputate vestibulum. Aenean
-          sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi
-          tristique justo vel turpis sollicitudin, et tristique velit convallis.
-          In hac habitasse platea dictumst. Phasellus mattis nunc sed orci
-          consequat laoreet. Praesent id nisl nibh. Curabitur imperdiet
-          ultricies mollis. In hac habitasse platea dictumst.
+          I'm currently enrolled at University of Central Florida's Full Stack
+          Web Development Bootcamp and I will graduate on November 17, 2022. I
+          have become proficient in Front-End Development (HTML, CSS,
+          Javascript, Web API's, Third-Party API's, Server-Side API's), Back-End
+          Development (Node.js, OOP, Express.js, SQL, Sequelize, ORM, MVC
+          Paradigm), Performance-Based Development (NoSQL, MongoDB, Progressive
+          Web Applications, React, MERN and State) and we use GitHub and Heroku
+          to save and deploy. I am also learning .Net on my own. I am really
+          enjoying learning the in's and out's of Web Development, I can't wait
+          to utilize the new skills I've learned at a job. I am hard-working,
+          resourceful and I love learning about new technologies.
         </p>
       </div>
     </section>

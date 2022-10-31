@@ -101,6 +101,22 @@ header {
 header a {
   color: darkcyan;
 }
+.footer {
+  height: 150px;
+  position: relative;
+  padding: 1rem;
+  margin: 0, auto;
+  background-color: #8fbc8f;
+}
+.singleCol {
+  max-width: 750px;
+  margin: 0, auto;
+}
+
+.social-media-icons a {
+  color: darkblue;
+  font-size: 2rem;
+}
 
 button {
   font-size: 1rem;
@@ -268,20 +284,4 @@ a {
 
 .navActive {
   color: var(--secondary);
-}
-.footer {
-  height: 150px;
-  position: relative;
-  padding: 1rem;
-  margin: 0, auto;
-  background-color: #8fbc8f;
-}
-.singleCol {
-  max-width: 750px;
-  margin: 0, auto;
-}
-
-.social-media-icons a {
-  color: darkblue;
-  font-size: 2rem;
 }
