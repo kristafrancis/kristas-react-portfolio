@@ -12,11 +12,11 @@ import Footer from "./components/Footer";
 
 function App() {
   const [categories] = useState([
-    {
-      name: "about me",
-    },
+    // {
+    //   name: "about me",
+    // },
     { name: "portfolio" },
-    { name: "contact" },
+    // { name: "contact" },
     { name: "resume" },
   ]);
 
