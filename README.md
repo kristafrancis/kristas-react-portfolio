@@ -1,4 +1,4 @@
-# kristas-react-portfolio
+# Kristas-React-Portfolio
 
 ## Table of Contents
 
@@ -13,11 +13,12 @@
 
 ## Description
 
-This is a portfolio project using React. . It has sections for projects I've done that are linked to their corrosponding GitHubb Repositories and deployed applications. An About Me section, a section with me resume and a section to contact me. It also has links in the footer for GitHub, Linkedin and Stack Overflow.
+This is a portfolio project using React. . It has sections for projects I've done that are linked to their corresponding GitHub Repositories and deployed applications, an About Me section, a section with my resume and a section to contact me. It also has links in the footer for GitHub, Linkedin and Stack Overflow.
 
 ## Installation
 
-npm i: to install necessary dependecies. npm start: to run the applicaton.
+npm i: to install necessary dependecies.
+npm start: to run the applicaton.
 
 ## Usage
 
