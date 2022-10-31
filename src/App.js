@@ -8,7 +8,7 @@ import About from "./components/About";
 import ContactForm from "./components/Contact";
 import Footer from "./components/Footer";
 //import Resume from "./components/Resume";
-//import Footer from "./components/Footer";
+
 
 function App() {
   const [categories] = useState([
