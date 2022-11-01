@@ -2,7 +2,7 @@ main {
   background-color: lightsteelblue;
   font-weight: 1000;
   margin: 0 auto;
-  max-width: 90%;
+  max-width: 100%;
   padding: 50px 30px;
 }
 :root {
