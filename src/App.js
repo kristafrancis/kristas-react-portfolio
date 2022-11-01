@@ -8,8 +8,8 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Portfolio from "./components/Portfolio";
-//import Resume from "./components/Resume";
-//import Footer from "./components/Footer";
+import Resume from "./components/Resume";
+
 
 function App() {
   const pages = [
@@ -54,6 +54,7 @@ function App() {
             <Route path="/" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/resume" element={<Resume />} />
           </Routes>
         </main>
         <Footer></Footer>
