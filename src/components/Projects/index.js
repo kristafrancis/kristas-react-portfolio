@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
-const Projects = ({ category }) => {
-  const [portfolio] = useState([
+const Projects = () => {
+  const [currentPortfolio] = useState([
     {
       name: "Run-Buddy",
       languages: "HTML, CSS",
@@ -18,7 +18,7 @@ const Projects = ({ category }) => {
       name: "Password-Generator",
       languages: "HTML, CSS, Javascript",
       repository: "https://github.com/kristafrancis/password-generator",
-      link: "https://kristafrancis.github.io/password-generator/",
+      link: "https://github.com/kristafrancis/password-generator",
     },
     {
       name: "Between-the-Looking-Glass",
@@ -41,16 +41,18 @@ const Projects = ({ category }) => {
   ]);
 
   return (
-    <div>
+    <div> 
       <div className="flex-row">
-        {currentPhotos.map((image, i) => (
-          <img
-            src={require(`../../assets/small/${category}/${i}.jpg`).default}
-            alt={image.name}
-            className="img-thumbnail mx-1"
-            key={image.name}
-          />
-        ))}
+        {currentPortfolio.map((image, i) => {
+          return (
+            <img
+              src={require(`../../assets/portfolio/${image.name}.png`).default}
+              alt={image.name}
+              className="img-thumbnail mx-1"
+              key={image.name}
+            />
+          );
+        })}
       </div>
     </div>
   );
