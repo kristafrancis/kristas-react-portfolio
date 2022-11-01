@@ -28,14 +28,14 @@ body {
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  margin: 20px;
+  padding: 20px;
   font-weight: 600;
   line-height: 1.5;
   font-size: 25px;
   letter-spacing: 0.1em;
   background: lightyellow;
-  color: black;
+  color: navy;
   font-family: "Poiret One", cursive;
 }
 
@@ -116,7 +116,7 @@ nav {
   position: relative;
   padding: 1rem;
   margin: 0, auto;
-  background-color: #8fbc8f;
+  background-color: lightsteelblue;
 }
 .singleCol {
   max-width: 750px;

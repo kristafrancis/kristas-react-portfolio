@@ -4,8 +4,9 @@ function Resume() {
   return (
     <section className="my-5">
       <div className="my-2">
+        <h1>Resume</h1>
         <p>
-          Download my <a href="kristafrancis">resume</a>
+          Download my <a href="https://github.com/kristafrancis">resume</a>
         </p>
         <h3>Front-End Proficiencies</h3>
         <ul className="skills">

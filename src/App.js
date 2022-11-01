@@ -38,7 +38,7 @@ function App() {
             return (
               <li>
                 <NavLink
-                  activeClassName="active route-active"
+                  activeclassname="active route-active"
                   className="nav-over"
                   to={page.pageRoute}
                 >
