@@ -41,12 +41,12 @@ const Projects = () => {
   ]);
 
   return (
-    <div> 
+    <div>
       <div className="flex-row">
         {currentPortfolio.map((image, i) => {
           return (
             <img
-              src={require(`../../assets/portfolio/${image.name}.png`).default}
+              src={require(`../../assets/portfolio/${image.name}.png`)}
               alt={image.name}
               className="img-thumbnail mx-1"
               key={image.name}

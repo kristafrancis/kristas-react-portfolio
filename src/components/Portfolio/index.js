@@ -6,7 +6,7 @@ import { capitalizeFirstLetter } from "../../utils/helpers";
 function Portfolio() {
   return (
     <section>
-  Test    {/* <Projects /> */}
+      <Projects />
     </section>
   );
 }

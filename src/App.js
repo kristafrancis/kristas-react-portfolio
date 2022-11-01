@@ -1,5 +1,5 @@
 import { HashRouter as Router, Route, Routes, NavLink } from "react-router-dom";
-//import "./App.css";
+import "./index";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import React, { useState } from "react";

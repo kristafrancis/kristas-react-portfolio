@@ -10,7 +10,7 @@ function Nav(props) {
         </a>
       </h2>
       <nav>
-        <ul className="flex-row">{props.children}</ul>
+        <ul className="flex-row px-2">{props.children}</ul>
       </nav>
     </header>
   );
