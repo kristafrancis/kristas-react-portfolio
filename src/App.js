@@ -2,14 +2,13 @@ import { HashRouter as Router, Route, Routes, NavLink } from "react-router-dom";
 import "./index";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import React, { useState } from "react";
+import React from "react";
 import Nav from "./components/Nav";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Portfolio from "./components/Portfolio";
 import Resume from "./components/Resume";
-
 
 function App() {
   const pages = [
@@ -40,7 +39,7 @@ function App() {
               <li>
                 <NavLink
                   activeClassName="active route-active"
-                  className="nav-link nav-over"
+                  className="nav-over"
                   to={page.pageRoute}
                 >
                   {page.pageName}
