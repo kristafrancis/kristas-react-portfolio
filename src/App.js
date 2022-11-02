@@ -1,7 +1,7 @@
 import { HashRouter as Router, Route, Routes, NavLink } from "react-router-dom";
 import "./index";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+//import "./index.css";
 import React from "react";
 import Nav from "./components/Nav";
 import About from "./components/About";
