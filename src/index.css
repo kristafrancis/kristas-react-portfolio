@@ -105,6 +105,10 @@ header a {
   color: navy;
 }
 
+header h2 {
+  justify-content: right;
+}
+
 nav {
   height: 100px;
   color: navy;

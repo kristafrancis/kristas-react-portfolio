@@ -11,19 +11,21 @@ function Nav(props) {
     <header>
       <div>
         <Container>
-          <h1 className="text-left justify-content-space-between">
+          <h1 className="d-flex justify-content-evenly">
+          <div className="singleCol social-media-icons">
             <a href="https://github.com/kristafrancis">
               <FontAwesomeIcon icon={faSeedling} />
               Krista Francis
             </a>
+            <nav>
+            <h2>
+              <ul className="d-flex">{props.children}</ul>
+            </h2>
+            </nav>
+            </div>
           </h1>
         </Container>
       </div>
-      <nav>
-        <h3>
-          <ul className="flex-row px-2">{props.children}</ul>
-        </h3>
-      </nav>
     </header>
   );
   //   return (
