@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Portfolio from "../Portfolio";
 
 const Projects = () => {
   const [currentPortfolio] = useState([
