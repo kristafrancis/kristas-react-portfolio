@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/kristas-react-portfolio/static/css/main.f3c3f87f.css",
+    "main.js": "/kristas-react-portfolio/static/js/main.25fe93c8.js",
+    "static/js/787.1fb587ae.chunk.js": "/kristas-react-portfolio/static/js/787.1fb587ae.chunk.js",
+    "static/media/Run-Buddy.png": "/kristas-react-portfolio/static/media/Run-Buddy.7b8cd1f8922438bcbd22.png",
+    "static/media/Now-We're-Cookin'.png": "/kristas-react-portfolio/static/media/Now-We're-Cookin'.2a60af52458dcd65dc14.png",
+    "static/media/Between-the-Looking-Glass.png": "/kristas-react-portfolio/static/media/Between-the-Looking-Glass.fbb5f949f8d7a3ec5de9.png",
+    "static/media/Weather-Dashboard.png": "/kristas-react-portfolio/static/media/Weather-Dashboard.b03aac1d087af8332aba.png",
+    "static/media/Password-Generator.png": "/kristas-react-portfolio/static/media/Password-Generator.456de3af68169530aa30.png",
+    "static/media/MVC-Tech-Blog.png": "/kristas-react-portfolio/static/media/MVC-Tech-Blog.8ce739cda9ce3578a008.png",
+    "static/media/headshot.png": "/kristas-react-portfolio/static/media/headshot.dad20715c7cd8ce51ff6.png",
+    "index.html": "/kristas-react-portfolio/index.html",
+    "main.f3c3f87f.css.map": "/kristas-react-portfolio/static/css/main.f3c3f87f.css.map",
+    "main.25fe93c8.js.map": "/kristas-react-portfolio/static/js/main.25fe93c8.js.map",
+    "787.1fb587ae.chunk.js.map": "/kristas-react-portfolio/static/js/787.1fb587ae.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3c3f87f.css",
+    "static/js/main.25fe93c8.js"
+  ]
+}
