@@ -1,5 +1,10 @@
 import React, { useState } from "react";
+// import { MDBBtn, MDBIcon } from 'mdb-react-ui-kit';
 import Portfolio from "../Portfolio";
+
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Projects = () => {
   const [currentPortfolio] = useState([
@@ -43,15 +48,23 @@ const Projects = () => {
 
   return (
     <div>
-      <div className="flex-row">
+      <div className="d-flex justify-content-between flex-wrap">
         {currentPortfolio.map((image, i) => {
           return (
-            <img
-              src={require(`../../assets/portfolio/${image.name}.png`)}
-              alt={image.name}
-              className="img-thumbnail mx-1"
-              key={image.name}
-            />
+            <div>
+              <img
+                src={require(`../../assets/portfolio/${image.name}.png`)}
+                alt={image.name}
+                className="img-thumbnail col-md-4"
+                key={image.name}
+              />
+              <a href={image.repository}>
+                <FontAwesomeIcon icon={faGithub} />
+              </a>
+              <a href={image.link}>
+                <FontAwesomeIcon icon={faLink} />
+              </a>
+            </div>
           );
         })}
       </div>

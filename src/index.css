@@ -276,10 +276,10 @@ textarea {
 }
 
 .img-thumbnail {
-  width: auto;
-  height: 300px;
-  margin-bottom: 50px;
-  cursor: pointer;
+  width: auto !important;
+  height: 300px !important;
+  margin-bottom: 50px !important;
+  cursor: pointer !important;
 }
 
 button {

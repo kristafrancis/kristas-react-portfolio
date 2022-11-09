@@ -39,7 +39,7 @@ function App() {
               <li>
                 <NavLink
                   activeclassname="active route-active"
-                  className="nav-over"
+                  className="nav-over mx-2"
                   to={page.pageRoute}
                 >
                   {page.pageName}
