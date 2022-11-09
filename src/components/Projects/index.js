@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import { MDBBtn, MDBIcon } from 'mdb-react-ui-kit';
+import Stack from "react-bootstrap/Stack";
 import Portfolio from "../Portfolio";
 
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -51,19 +51,28 @@ const Projects = () => {
       <div className="d-flex justify-content-between flex-wrap">
         {currentPortfolio.map((image, i) => {
           return (
-            <div>
+            <div className="">
               <img
                 src={require(`../../assets/portfolio/${image.name}.png`)}
                 alt={image.name}
                 className="img-thumbnail col-md-4"
                 key={image.name}
               />
-              <a href={image.repository}>
-                <FontAwesomeIcon icon={faGithub} />
-              </a>
-              <a href={image.link}>
-                <FontAwesomeIcon icon={faLink} />
-              </a>
+              <Stack gap={2} className="col-sm-3 mx-auto">
+                <div>
+                  <button variant="secondary">
+                    GitHub
+                    <a href={image.repository}>
+                      <FontAwesomeIcon icon={faGithub} />
+                    </a>
+                  </button>
+                </div>
+                <div className="bg-dark border">
+                  <a href={image.link}>
+                    <FontAwesomeIcon icon={faLink} />
+                  </a>
+                </div>
+              </Stack>
             </div>
           );
         })}
