@@ -276,8 +276,8 @@ textarea {
 }
 
 .img-thumbnail {
-  width: 300px !important;
-  height: 250px !important;
+  width: 350px !important;
+  height: 225px !important;
   margin-bottom: 50px !important;
   cursor: pointer !important;
 }

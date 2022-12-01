@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Stack from "react-bootstrap/Stack";
-import Portfolio from "../Portfolio";
+// import Portfolio from "../Portfolio";
 
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
@@ -9,11 +9,18 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Projects = () => {
   const [currentPortfolio] = useState([
     {
-      name: "Run-Buddy",
-      languages: "HTML, CSS",
-      repository: "https://github.com/kristafrancis/run-buddy",
-      link: "https://lernantino.github.io/run-buddy/#what-we-do",
+      name: "Booknook",
+      languages: "Mern Stack",
+      repository: "https://github.com/kristafrancis/book-nook-v2",
+      link: "https://book-nook2.herokuapp.com/",
     },
+    {
+      name: "Between-the-Looking-Glass",
+      languages: "Express.js, Node.js, Handlebars, Javascript, CSS, HTML",
+      repository: "https://github.com/kristafrancis/between-the-looking-glass",
+      link: "https://dry-temple-13792.herokuapp.com/",
+    },
+    
     {
       name: "Now-We're-Cookin'",
       languages: "HTML, CSS, Javascript",
@@ -21,28 +28,23 @@ const Projects = () => {
       link: "https://kristafrancis.github.io/now-were-cookin/",
     },
     {
-      name: "Password-Generator",
-      languages: "HTML, CSS, Javascript",
-      repository: "https://github.com/kristafrancis/password-generator",
-      link: "https://github.com/kristafrancis/password-generator",
-    },
-    {
-      name: "Between-the-Looking-Glass",
-      languages: "Express.js, MongoDB",
-      repository: "https://github.com/kristafrancis/social-network-API",
-      link: "https://dry-temple-13792.herokuapp.com/",
+      name: "Run-Buddy",
+      languages: "HTML, CSS",
+      repository: "https://github.com/kristafrancis/run-buddy",
+      link: "https://lernantino.github.io/run-buddy/#what-we-do",
     },
     {
       name: "Weather-Dashboard",
-      languages: "HTML, CSS, Javascript, Node.js, Express.js, Handlebars",
-      repository: "https://github.com/kristafrancis/between-the-looking-glass",
-      link: "https://github.com/kristafrancis/weather-dashboard",
+      languages: "HTML, CSS, Javascript, Open Weather API",
+      repository: "https://github.com/kristafrancis/weather-dashboard-one",
+      link: "https://kristafrancis.github.io./weather-dashboard-one/",
     },
+    
     {
-      name: "MVC-Tech-Blog",
-      languages: "HTML, CSS, Javascript, Handlebars",
-      repository: "https://github.com/kristafrancis/mvc-tech-blog",
-      link: "https://krista-mvc-tech-blog.herokuapp.com/",
+      name: "Scheduler",
+      languages: "HTML, CSS, Javascript",
+      repository: "https://github.com/kristafrancis/scheduler-one",
+      link: "https://kristafrancis.github.io/scheduler-one/",
     },
   ]);
 
